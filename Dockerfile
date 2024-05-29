@@ -8,7 +8,7 @@ ENV APP_DIR /app
 WORKDIR $APP_DIR
 
 # 复制应用程序文件到镜像中
-COPY hello-world.sh $APP_DIR/
+COPY hello_world.sh $APP_DIR/
 
 # 定义启动命令。tail -f /dev/null是为了让容器不退出。
-CMD ["sh", "-c", "sh hello-world.sh && tail -f /dev/null"]
+CMD ["sh", "-c", "sh hello_world.sh && tail -f /dev/null"]

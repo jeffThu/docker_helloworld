@@ -1,1 +1,1 @@
-iamge is pushed to docker hub
+image is pushed to docker hub
